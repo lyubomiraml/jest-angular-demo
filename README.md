@@ -1,4 +1,4 @@
-## Setup jest in new angular project
+## Setup jest in a new angular project
 
 # Step 1 - Remove Karma related stuff:
 
@@ -36,3 +36,11 @@
 
 # Step 6 - Run tests 
 	ng test
+
+
+
+## Run and debug a single test in Visual Studio Code
+1. Select the `Run and Debug` page from the left navigation pane;
+2. On the top drop-down menu select `Jest Current File` or `Jest Current File(watch)`;
+3. Click on the Green play button next to the drop-down;
+4. Using both approaches you can set breakpoints in your test and ng files;
